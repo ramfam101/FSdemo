@@ -1,0 +1,73 @@
+.outerBox{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#topHalf{
+    flex:1;
+    display:flex;
+    
+}
+
+#bottomHalf{
+    flex:1;
+    display:flex;
+
+
+}
+
+.topLeft, .topRight, .bottomLeft, .bottomRight {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.topLeft{
+    background-color: aqua;
+}
+
+.topRight{
+    background-color: green;
+}
+
+.bottomRight{
+    background-color: orange;
+}
+
+.bottomLeft{
+    background-color: pink;
+}
+
+
+
+.bottomNav {
+    display: flex;
+    height: 50px; 
+    width: 100%;
+}
+
+.leftNav, .rightNav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.leftNav {
+    background-color:red;
+}
+
+.rightNav {
+    background-color:purple;
+}
+
+.leftNav:hover, .rightNav:hover {
+    opacity: 0.8;
+}
